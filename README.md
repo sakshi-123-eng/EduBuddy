@@ -4,7 +4,7 @@ The technologies used in this android application is Java, Android Studio, Xml, 
 
 
 
-(https://user-images.githubusercontent.com/64766025/119868167-57fbe100-bf3c-11eb-9204-4758e4feb063.gif)
++![Uploading ezgif.com-gif-maker (2).gif…]()
 
 
 
