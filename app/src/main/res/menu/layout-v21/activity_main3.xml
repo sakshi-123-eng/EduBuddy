@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end"
+    tools:context=".Main3Activity"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+        <include
+            layout="@layout/navigation_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ViewFlipper
+                    android:id="@+id/v_flipper"
+                    android:layout_margin="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card1"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="16dp"
+                        app:cardCornerRadius="35dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/gty"
+                            android:onClick="Class" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="22dp"
+                            android:text="My
+                            Video Classes"
+                            android:textColor="#ffffff"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="16dp"
+                        app:cardCornerRadius="30dp">
+
+
+                        <LinearLayout
+                            android:id="@+id/lin2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rt7"
+                            android:onClick="study" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="23dp"
+                            android:text="Online
+                            Study Material"
+                            android:textColor="#ffffff"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="16dp"
+                        app:cardCornerRadius="30dp">
+
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/uyt"
+                            android:onClick="Class" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:text="Online
+                             Test"
+                            android:textColor="#ffffff"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="16dp"
+                        app:cardCornerRadius="20dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/dbt"
+                            android:onClick="Class" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:text="Doubt
+                                Forum"
+                            android:textColor="#ffffff"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/button5"
+                    android:onClick="About"
+                    android:text="LPS"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </Button>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="#ffffff"
+        app:itemTextColor="#000000"
+        app:itemTextAppearance="@color/design_default_color_primary_variant"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header" />
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F6F5"
+    android:orientation="vertical"
+    tools:context=".CL3">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button5"
+        android:text="Class:-3"
+        android:textColor="#5DCFC4"
+        android:textSize="30dp">
+
+    </Button>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5DCFC4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn6"
+                android:text="Subjects"
+                android:textColor="#000000"
+                android:textSize="39dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="13dp"
+                android:background="#F1F6F8"
+                android:onClick="Maths"
+                android:text="  Maths"
+                android:textColor="#C2185B"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="13dp"
+                android:background="#F6F5F0"
+                android:onClick="Science"
+                android:text="Science"
+                android:textColor="#0097A7"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="13dp"
+                android:background="#F0F5F8"
+                android:text="Hindi"
+                android:textColor="#7B1FA2"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="0dp"
+                android:background="#FAEEEE"
+                android:text="English"
+                android:textColor="#F57C00"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="13dp"
+                android:background="#F8F8EC"
+                android:text="SSc"
+                android:textColor="#7A00A7"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="13dp"
+                android:background="#F6F4F1"
+                android:text=" Drawing"
+                android:textColor="#0097A7"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="13dp"
+                android:background="#E5EEEF"
+                android:text="G.K"
+                android:textColor="#7B1FA2"
+                android:textSize="31dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

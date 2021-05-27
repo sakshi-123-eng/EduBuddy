@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always"
+        android:title="Home"/>
+    <item android:id="@+id/nav_study"
+        android:icon="@drawable/ic_class_black_24dp"
+        app:showAsAction="always"
+        android:title="Online Study Material"/>
+    <item android:id="@+id/nav_test"
+        android:icon="@drawable/ic_desktop_mac_black_24dp"
+        app:showAsAction="always"
+        android:title="Online Test"/>
+    <item android:id="@+id/nav_solutions"
+        android:icon="@drawable/ic_subscriptions_black_24dp"
+        app:showAsAction="always"
+        android:title="My Bosster solutions "/>
+    <item android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        app:showAsAction="always"
+        android:title="My Orders"/>
+
+    <item android:id="@+id/nav_contactUs"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        app:showAsAction="always"
+        android:title="Contact Us"/>
+    <item android:id="@+id/nav_about"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_accessibility_black_24dp"
+        android:title="About Us"/>
+    <item android:id="@+id/nav_policy"
+        android:icon="@drawable/ic_copyright_black_24dp"
+        app:showAsAction="always"
+        android:title="Content Copyright Policy"/>
+    <item android:id="@+id/nav_rating"
+        android:icon="@drawable/ic_grade_black_24dp"
+        app:showAsAction="always"
+        android:title="Rate App"/>
+    <item android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"
+        android:title="Share App"/>
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_compare_arrows_black_24dp"
+        app:showAsAction="always"
+        android:title="Log Out"/>
+</menu>

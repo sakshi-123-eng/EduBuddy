@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "994563863359",
+    "firebase_url": "https://sihifireapp-f058d.firebaseio.com",
+    "project_id": "sihifireapp-f058d",
+    "storage_bucket": "sihifireapp-f058d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994563863359:android:dabeff181dc048461ad98a",
+        "android_client_info": {
+          "package_name": "com.sakshi.edubuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3wIW0JQr-Meisu5KIiKNhBrX2op0H8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994563863359:android:b68eb9d49259493f1ad98a",
+        "android_client_info": {
+          "package_name": "com.sakshi.lili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3wIW0JQr-Meisu5KIiKNhBrX2op0H8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994563863359:android:1826f7d45b4225231ad98a",
+        "android_client_info": {
+          "package_name": "com.sakshi.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3wIW0JQr-Meisu5KIiKNhBrX2op0H8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994563863359:android:68fa39ff6e7dcea81ad98a",
+        "android_client_info": {
+          "package_name": "com.sakshi.sihifireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3wIW0JQr-Meisu5KIiKNhBrX2op0H8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994563863359-7cl4o24gq0vkuh0jn1imb20r6k5cqkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

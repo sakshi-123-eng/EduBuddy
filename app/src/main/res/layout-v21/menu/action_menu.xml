@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+
+    <item
+        android:id="@+id/nav_mic"
+        android:icon="@drawable/ic_mic"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="mic" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_local_grocery"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="cart" />
+
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/nav_statement"
+        app:showAsAction="never"
+        android:title="Select Class"/>
+
+    <item android:id="@+id/nav_cl3"
+        app:showAsAction="never"
+        android:title="Class 3"/>
+    <item android:id="@+id/nav_cl4"
+        app:showAsAction="never"
+        android:title="Class 4"/>
+    <item android:id="@+id/nav_cl5"
+        app:showAsAction="never"
+        android:title="Class 5"/>
+    <item android:id="@+id/nav_cl6"
+        app:showAsAction="never"
+        android:title="Class 6"/>
+
+</menu>

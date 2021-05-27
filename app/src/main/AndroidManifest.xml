@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sakshi.edubuddy">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".Trials" />
+        <activity android:name=".Study3" />
+        <activity android:name=".Study2" />
+        <activity android:name=".Study1" />
+        <activity android:name=".Study"
+            android:parentActivityName=".Main3Activity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".Signup" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Science" />
+        <activity android:name=".Ratings" />
+        <activity android:name=".Phybook" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Maths" />
+        <activity android:name=".About"
+            android:parentActivityName=".Main3Activity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".Bdyyyyy" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Chebook" />
+        <activity android:name=".CL3" />
+        <activity android:name=".CL4" />
+        <activity android:name=".CL6" />
+        <activity android:name=".CL5" />
+        <activity android:name=".Contact"
+            android:parentActivityName=".DashBoard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".DashBoard" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".BrightScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
